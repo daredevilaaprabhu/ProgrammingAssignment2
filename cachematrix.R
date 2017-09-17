@@ -20,7 +20,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+##Check for the data. If it already has an inverse then it will just use the existing data
+# Else it will compute the new value
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
